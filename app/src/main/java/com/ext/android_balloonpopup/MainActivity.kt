@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         binding.btnShowTooltip.setOnClickListener {
             BalloonPopup(this)
                 .setText("Hello from Balloon Library 🎈")
-                .setArrowPosition(ArrowPosition.RIGHT)
+                .setArrowPosition(ArrowPosition.BOTTOM)
                 .setBackgroundColor(Color.parseColor("#6200EE"))
                 .setTextColor(Color.YELLOW)
                 .show(binding.btnShowTooltip)

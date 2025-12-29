@@ -46,8 +46,8 @@ class BalloonPopup(private val context: Context) {
         // Arrow drawable
         // Set arrow drawable FIRST
         when (config.arrowPosition) {
-            ArrowPosition.TOP -> arrow.setImageResource(R.drawable.triangle_up)
-            ArrowPosition.BOTTOM -> arrow.setImageResource(R.drawable.triangle)
+            ArrowPosition.TOP -> arrow.setImageResource(R.drawable.triangle)
+            ArrowPosition.BOTTOM -> arrow.setImageResource(R.drawable.triangle_up)
             ArrowPosition.LEFT -> arrow.setImageResource(R.drawable.triangle_left)
             ArrowPosition.RIGHT -> arrow.setImageResource(R.drawable.triangle_right)
         }
